@@ -23,7 +23,7 @@ const PostLayout = ({ params }: { params: { slug: string } }) => {
   return (
     <article className="mx-auto overflow-y-hidden bg-black max-w-xl py-8 flex flex-col justify-center items-center">
       <div className="h-auto w-full p-6">
-        <Link href={'/blog'}>
+        <Link href={'/'}>
           <button className="text-blue-600 font-bold">Back to Posts</button>
         </Link>
       </div>
