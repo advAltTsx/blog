@@ -48,12 +48,13 @@ export default function PostCard(post: Post) {
             <GlowingStarsTitle>{post.title}</GlowingStarsTitle>
             <div className="flex w-full justify-between items-end">
               <GlowingStarsDescription>
+                by {post.author}{' '}
+              </GlowingStarsDescription>
+              <GlowingStarsDescription>
+                
                 <time dateTime={post.date} className="mb-1 block text-xs">
                   {new Intl.DateTimeFormat('en-US').format(new Date(post.date))}
                 </time>{' '}
-              </GlowingStarsDescription>
-              <GlowingStarsDescription>
-                by {post.author}
               </GlowingStarsDescription>
               <div className="h-8 w-8 rounded-full bg-[hsla(0,0%,100%,.1)] flex items-center justify-center">
                 <Icon />
