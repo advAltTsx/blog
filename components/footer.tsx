@@ -19,7 +19,7 @@ export default function Footer() {
           </div>
           <div className="h-1/2 w-full">
             <h1 className=" text-2xl py-6 font-extrabold text-white ">
-              Projects <br />
+              Products <br />
               <Link href={'https://advnote.abhyudaya.xyz'}>
                 {' '}
                 <span className=" font-semibold text-sm text-white/70 /70">
