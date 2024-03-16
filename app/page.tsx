@@ -12,7 +12,7 @@ export default function Home() {
 
   return (
     <div className="h-auto min-h-screen bg-black bg-grid-small-white/[0.2] from-[#fff] to-transparent w-full">
-      <div className="h-auto w-full p-12 bg-gradient-to-b from-black to-transparent ">
+      {/*<div className="h-auto w-full p-12 bg-gradient-to-b from-black to-transparent ">
         <Link href={'https://abhyudaya.xyz'}>
           <button className="text-blue-600 font-bold">Back to Home</button>
         </Link>
@@ -25,7 +25,7 @@ export default function Home() {
           <PostCard key={idx} {...post} />
         ))}
       </div>
-      <Footer />
+      <Footer />*/}
     </div>
   );
 }
